@@ -30,7 +30,7 @@ a:active {
     align-items: center;
     flex-wrap: wrap;
     overflow-y: auto;
-    background-color: yellow;
+    background-color: rgba(81, 243, 255, 0.596);
 }
 
 h1 {
@@ -45,7 +45,10 @@ video {
     object-fit: cover;
     border: 5px solid #000;
     max-width: 600px;
-    border-radius: 25px;
+    border-radius: 12px;
+    object-fit: cover;
+    padding: 3px;
+    
 }
 
 .mainclone {
@@ -85,8 +88,8 @@ video {
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    padding: 3px 10px;
-    min-width: 80px;
+    padding: 8px 20px;
+    min-width: 100px;
     align-items: center;
     justify-content: center;
 }
@@ -102,12 +105,12 @@ video {
 
 .leave_red {
     color: white;
-    background-color: red;
-    border-radius: 5%;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10%;
 }
 
 .main__message_container {
-    padding: 20px 15px;
+    padding: 15px 10px;
     display: flex;
 }
 
@@ -132,8 +135,8 @@ video {
 .main_right_header {
     color: white;
     text-align: center;
-    font-size: 20px;
-    padding: 10px;
+    font-size: 100px;
+    padding: 3px;
     border-bottom: 2px solid #3d3d42;
 }
 
@@ -148,6 +151,8 @@ video {
     animation: animate 20s linear infinite;
     background-image: linear-gradient(to right, #f00, #ff0, #0ff, #0f0, #00f);
     background-size: 1000%;
+    height: 35px;
+    width: 100%;
 }
 
 @keyframes animate {
